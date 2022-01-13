@@ -17,7 +17,7 @@ const client = new Client({
 client.once( 'ready', function () {
     console.log('Bot Ligado')
     let activities = [
-        `twitch.tv/ferrarintc`
+        `twitch.tv/ferrarintc` //voce pode trocar/tirar isso
     ],
     i = 0;
     client.user.setActivity(`${activities[i++ % activities.length]}`, {
@@ -28,8 +28,8 @@ client.once( 'ready', function () {
 })
 
 client.on('messageCreate', function (message) {
-    if (message.content === "Como aposto?") {
-        message.reply ('Para apostar é simples, basta você ir nas salas designadas, caso tenha mais alguma dúvida visite o canal de ajuda!')
+    if (message.content === "Exemplo") { //Quando o user mandar esta mensagem o bot irá responder com o reply abaixo
+        message.reply ('Exemplo 1 executado') //Coloque aqui o que você quer que o bot responda
     }
  
 })
