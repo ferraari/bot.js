@@ -17,7 +17,7 @@ module.exports = class extends Command {
 
     run = (Interaction) => {
         Interaction.reply({
-            content: 'Olá, fui criado pelo Murilo Ferrari, discord: ferrari#7934',
+            content: 'Olá, fui criado pelo Murilo Ferrari, discord: ferrari#7934', //Você pode mudar :)
             ephemeral: true
         })
     }

@@ -7,7 +7,7 @@ module.exports = class extends Command {
     constructor(client) {
         super(client, {
             name: 'ping',
-            description: 'Brinqe de ping e pong :D'
+            description: 'Brinque de ping e pong :D'
 
         })
 

@@ -36,7 +36,7 @@ module.exports = class extends Command {
         const texto = interaction.options.getString('mensagem')
 
         const embed = new MessageEmbed()
-            .setTitle('Estrela Bet')
+            .setTitle('Bot') //Nome do Seu bot ou titulo do embed
             .setDescription(texto)
             .setColor('#0000ff')
             .setTimestamp()
